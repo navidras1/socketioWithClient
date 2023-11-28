@@ -1,0 +1,23 @@
+{
+  "name": "socketioprj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "type": "module"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "express": "^4.18.2",
+    "redis": "^4.6.10",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
